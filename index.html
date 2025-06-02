@@ -1,96 +1,124 @@
-<?php
 
-/* Template Name: Home page */
+<!DOCTYPE html>
+<html lang="en">
 
-get_header('');
+<head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y449Y9B10E"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-?>
-  <!-- Banner section start -->
-   <section class="banner_new_design" style="padding: 0px;">
-  <div class="mani_banner_div">
-    <!-- Desktop Banner: visible on lg and up -->
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/coming-soon-banner-destop.png"
-         alt="Desktop Banner"
-         class="img-fluid d-none d-lg-block desktop_banner-new">
+gtag('config', 'G-Y449Y9B10E');
+</script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="index,follow">
+  <title>Soul of the Seasons - Luxury 3 BHK Apartments for Sale in Sarjapur Road, Bangalore</title>
+<meta name="description" content="Discover Soul of the Seasons, offering luxury 3 BHK apartments for sale in Sarjapur Road, Bangalore. Experience premium living with world-class amenities in a prime location. Enquire now!" />
+<link rel="canonical" href="https://www.souloftheseasons.in/" />
+<meta name="keywords" content="" />
 
-    <!-- Mobile Banner: visible below lg -->
-    <img src="<?php echo get_template_directory_uri(); ?>/assets/image/coming-soon-banner.png"
-         alt="Mobile Banner"
-         class="img-fluid d-block d-lg-none mob_banner-new">
-  </div>
-</section>
-<section class="banner-video-section" style="display: none;">
+  <!-- Required css -->
+  <link rel="stylesheet" type="text/css" href="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/css/owl.theme.min.css">
+  <!-- custom css  -->
+  <link rel="stylesheet" type="text/css" href="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/css/style.css">
+</head>
+<style>
+    section.conent-section_new {
+    background: #F1FFF9;
+}
+.conent-div_new h2 {
+    color: #154E36;
+    padding: 20px 0;
+    font-family: 'ScheherazadeNew-Bold';
+    font-size: 35px;
+    background: #F1FFF9;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.conent-div_new h3 {
+    color: #154E36;
+    padding: 20px 0;
+    font-family: 'ScheherazadeNew-Bold';
+    font-size: 30px;
+    background: #F1FFF9;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.conent-div_new h4 {
+    padding: 20px 0;
+    font-family: 'ScheherazadeNew-Bold';
+    font-size: 25px;
+    background: #F1FFF9;
+    line-height: 35px;
+    letter-spacing: 1px;
+}
+.conent-div_new p {
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: DMSans-Regular;
+    text-align: justify;
+}
+.conent-div_new li {
+    list-style: disc;
+    font-family: 'DMSans-Regular';
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+@media screen and (min-width: 500px) {
+    
+}
+
+</style>
+
+<body>
+  <header class="site-header">
+    <div class="site-identity">
+      <h2>Soul of the Seasons</h2>
+    </div>
+    <nav class="site-navigation">
+      <ul class="nav">
+        <!-- <li><a href="#">Contact Us</a></li> -->
+      </ul>
+    </nav>
+  </header>  <!-- Banner section start -->
+
+<section class="banner-video-section">
   <video class="video-desktop" autoplay muted loop playsinline>
-    <source src="<?php echo get_template_directory_uri(); ?>/assets/image/Banner-video.mp4" type="video/mp4" />
+    <source src="image/Banner-video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 
   <video class="video-mobile" autoplay muted loop playsinline>
-    <source src="<?php echo get_template_directory_uri(); ?>/assets/image/Banner-video.mp4" type="video/mp4" />
+    <source src="image/Banner-video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
 </section>
-
-
-  <!-- <section class="banner-section"  fetchpriority="high" loading="lazy">
-    <div class="banner-form">
-      <h2 class="mb-3">Luxury Apartments in Sarjapur Road</h2>
-      <p class="mb-4">Break the ice! Let us help you out</p>
-
-    </div> 
-  </section> -->
-
-
-  <!-- <section class="banner-section-mob"  fetchpriority="high" loading="lazy">
-    <div class="image-banner">
-      <img src="/assets/image/coming-soon-banner.png" alt="Soul of the Season" title="Soul of the Season">
-
-    </div>
-    <div class="banner-form-mob
-  ">
-      <h2 class="mb-3">Get in touch</h2>
-      <p class="mb-4">Break the ice! Let us help you out</p>
-      <form>
-        <div class="form-group">
-          <input type="text" class="form-control" id="name" placeholder="What's your name?*" required>
-        </div>
-
-        <div class="form-group">
-          <input type="tel" class="form-control" id="phone" placeholder="What's your phone number?*" required>
-          <small class="form-text text-muted">Please enter a valid phone number.</small>
-        </div>
-
-        <div class="form-group">
-          <input type="email" class="form-control" id="email" placeholder="What's your email?">
-        </div>
-
-        <div class="form-group">
-          <textarea class="form-control" id="interest" rows="4" placeholder="Describe your interest"></textarea>
-        </div>
-
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
-    </div>
-  </section> -->
-  <!-- banner section end -->
-  <!-- Project Highlights section start -->
   <section class="Project-Highlights"  fetchpriority="high" loading="lazy">
     <div class="project-high-main row">
-      <div class="first-cont col-lg-12 ">
+      <div class="first-cont col-lg-7 ">
         <h1>Soul of the Seasons</h1>
-        <p>At Soul of the Seasons, every sunrise is an invitation to embrace life’s unfolding moments.</p>
-        <p>Nature’s design graces every corner, with each season unfolding in rhythm. This sanctuary celebrates the stillness of winter, the bloom of spring, the warmth of summer, and the colours of spring, all blending in peace and harmony.</p>
-        <p> 
-            Located on Sarjapur Road, Soul of the Seasons marries architectural elegance with sustainable design. These spacious homes are designed with modern layouts, expansive windows for abundant natural light, and sustainable features that enhance comfort, efficiency, and well-being. </p>
-         
-        
-        
+        <p>Tucked away along the serene stretches of Sarjapur Road. This exclusive haven offers an exquisite blend of modern elegance and timeless tranquillity, with 80% of its expanse devoted to lush green spaces. Renowned for its legacy of high-quality developments, luxury projects crafts a home where every detail whispers harmony with the earth. </p>
+        <p>With a rich history in real estate, luxury projects is a symbol of trust, quality, and innovation. Renowned for its transformative developments across Bangalore, the group consistently sets new standards in the industry</p>
+        <p>With a rich history in real estate, luxury projects is a symbol of trust, quality, and innovation. Renowned for its transformative developments across Bangalore, the group consistently sets new standards in the industry
+
+          Our legacy is built on a strong commitment to timely delivery and customer satisfaction, ensuring each project exceeds expectations. Notable completed and ongoing projects, including Green Valley, Golden Valley, and Meadow, reflect our unwavering dedication to excellence, reinforcing our reputation as a trusted leader in the real estate sector.</p>
         <div class="project-btn">
           <a href="">Status: Pre-Launch Offers - Sign Up Now</a>
         </div>
 
       </div>
-      <!-- <div class="second-cont col-lg-5">
+      <div class="second-cont col-lg-5">
         <h2>Project Highlights</h2>
         <ul class="highlights">
           <li>• ➤Pre-Launch 3BHK Apartments in East Bangalore</li>
@@ -107,7 +135,7 @@ get_header('');
           <li>• ➤ Spread Over 10 Acres With 80% Open Spaces</li>
           <li>• ➤ 600 Homes (B+G+25 Floor) - 4 Stunning Tower</li>
         </ul>
-      </div> -->
+      </div>
     </div>
 
   </section>
@@ -118,7 +146,7 @@ get_header('');
       <div class="download-sub">
         <div class="download-item">
           <a href="#" title="Download Floorplans">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Download-Floorplans.avif" alt="Download Floorplans" title="Download Floorplans">
+            <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Download-Floorplans.png" alt="Download Floorplans" title="Download Floorplans">
             <span>Download Floorplans</span>
           </a>
         </div>
@@ -126,7 +154,7 @@ get_header('');
       <div class="download-sub">
         <div class="download-item">
           <a href="#" title="Download Brochure">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Download-Brochure.avif" alt="Download Brochure" title="Download Brochure">
+            <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Download-Brochure.png" alt="Download Brochure" title="Download Brochure">
             <span>Download Brochure</span>
           </a>
         </div>
@@ -134,7 +162,7 @@ get_header('');
       <div class="download-sub">
         <div class="download-item">
           <a href="#" title="Location Map">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Location-Map.avif" alt="Location Map" title="Location Map">
+            <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Location-Map.png" alt="Location Map" title="Location Map">
             <span>Location Map</span>
           </a>
         </div>
@@ -154,7 +182,7 @@ get_header('');
               <h3 class="title-font title-color ">Luxury Redefined, Exclusively Yours!</h3>
             </div>
             <div class="col-lg-8">
-              <p>Step in to unparallele delegance with our spacious apartments, starting at just ₹1.6crores.<br>Nestled in the heart of the city, these homes are crafted for those who seek comfort, style, andexclusivity. Make the move to a life of luxury today!</p>
+              <p>Step in to unparallele delegance with our spacious 3BHK apartments, starting at just ₹1.6crores.<br>Nestled in the heart of the city, these homes are crafted for those who seek comfort, style, andexclusivity. Make the move to a life of luxury today!</p>
             </div>
           </div>
         </div>
@@ -163,67 +191,67 @@ get_header('');
             <div class="item">
               <div class="luxury-enquiry-content">
                 <div class="luxury-exclusive-img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Luxury-redefined-exclusively-your.avif" alt="Specification 1450 & 1505 sqft" title="Specification 1450 & 1505 sqft">
+                  <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Luxury-redefined-exclusively-your.png" alt="Specification 1450 & 1505 sqft" title="Specification 1450 & 1505 sqft">
                   <div class="enquiry-btn">
                   <a href="#" class="open-popup-link" data-bs-toggle="modal" data-bs-target="#">Enquire Now</a>
                   </div>
                 </div>
-                <!-- <p>SBA - 1450 & 1505 sqft</p> -->
+                <p>SBA - 1450 & 1505 sqft</p>
               </div>
             </div>
             <div class="item">
               <div class="luxury-enquiry-content">
                 <div class="luxury-exclusive-img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Luxury-redefined-exclusively-your.avif" alt="Specification 1622 & 1684 sqft" title="Specification 1622 & 1684 sqft">
+                  <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Luxury-redefined-exclusively-your.png" alt="Specification 1622 & 1684 sqft" title="Specification 1622 & 1684 sqft">
                   <div class="enquiry-btn">
                      <a href="#" class="open-popup-link" data-bs-toggle="modal" data-bs-target="#">Enquire Now</a>
                   </div>
                 </div>
-                <!-- <p>SBA - 1622 & 1684 sqft</p> -->
+                <p>SBA - 1622 & 1684 sqft</p>
               </div>
             </div>
             <div class="item">
               <div class="luxury-enquiry-content">
                 <div class="luxury-exclusive-img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Luxury-redefined-exclusively-your.avif" alt="Specification 1635 & 1697 sqft" title="Specification 1635 & 1697 sqft">
+                  <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Luxury-redefined-exclusively-your.png" alt="Specification 1635 & 1697 sqft" title="Specification 1635 & 1697 sqft">
                   <div class="enquiry-btn">
                      <a href="#" class="open-popup-link" data-bs-toggle="modal" data-bs-target="#">Enquire Now</a>
                   </div>
                 </div>
-                <!-- <p>SBA - 1635 & 1697 sqft</p> -->
+                <p>SBA - 1635 & 1697 sqft</p>
               </div>
             </div>
             <div class="item">
               <div class="luxury-enquiry-content">
                 <div class="luxury-exclusive-img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Luxury-redefined-exclusively-your.avif" alt="Specification 1643 & 1705 sqft" title="Specification 1643 & 1705 sqft">
+                  <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Luxury-redefined-exclusively-your.png" alt="Specification 1643 & 1705 sqft" title="Specification 1643 & 1705 sqft">
                   <div class="enquiry-btn">
                      <a href="#" class="open-popup-link" data-bs-toggle="modal" data-bs-target="#">Enquire Now</a>
                   </div>
                 </div>
-                <!-- <p>SBA - 1643 & 1705 sqft</p> -->
+                <p>SBA - 1643 & 1705 sqft</p>
               </div>
             </div>
             <div class="item">
               <div class="luxury-enquiry-content">
                 <div class="luxury-exclusive-img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Luxury-redefined-exclusively-your.avif" alt="Specification 1825 sqft" title="Specification 1825 sqft">
+                  <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Luxury-redefined-exclusively-your.png" alt="Specification 1825 sqft" title="Specification 1825 sqft">
                   <div class="enquiry-btn">
                      <a href="#" class="open-popup-link" data-bs-toggle="modal" data-bs-target="#">Enquire Now</a>
                   </div>
                 </div>
-                <!-- <p>SBA - 1825 sqft</p> -->
+                <p>SBA - 1825 sqft</p>
               </div>
             </div>
             <div class="item">
               <div class="luxury-enquiry-content">
                 <div class="luxury-exclusive-img">
-                  <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Luxury-redefined-exclusively-your.avif" alt="Specification 1826 sqft" title="Specification 1826 sqft">
+                  <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Luxury-redefined-exclusively-your.png" alt="Specification 1826 sqft" title="Specification 1826 sqft">
                   <div class="enquiry-btn">
                      <a href="#" class="open-popup-link" data-bs-toggle="modal" data-bs-target="#">Enquire Now</a>
                   </div>
                 </div>
-                <!-- <p>SBA - 1826 sqft</p> -->
+                <p>SBA - 1826 sqft</p>
               </div>
             </div>
           </div>
@@ -248,7 +276,7 @@ get_header('');
         </div>
       </div>
       <div class="Masterplan-image col-lg-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/The-Masterplan-Space-Air-and-Tranquility.avif" alt="The Masterplan Space Air and Tranquility" title="The Masterplan Space Air and Tranquility">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/The-Masterplan-Space-Air-and-Tranquility.png" alt="The Masterplan Space Air and Tranquility" title="The Masterplan Space Air and Tranquility">
       </div>
     </div>
   </section>
@@ -257,7 +285,7 @@ get_header('');
   <section class="Masterplan">
     <div class="Masterplan-main row">
       <div class="Masterplan-image col-lg-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Elements-of-Life-A-Unique-Design-Philosophy.avif" alt="Elements of Life A Unique Design Philosophy " title="Elements of Life A Unique Design Philosophy">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Elements-of-Life-A-Unique-Design-Philosophy.png" alt="Elements of Life A Unique Design Philosophy " title="Elements of Life A Unique Design Philosophy">
       </div>
       <div class="Masterplan-conent col-lg-6">
         <div class="container">
@@ -289,7 +317,7 @@ get_header('');
         </div>
       </div>
       <div class="Masterplan-image col-lg-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Why-Choose-Soul-of-the-Seasons.avif" alt="Why Choose Soul of the Seasons" title="Why Choose Soul of the Seasons">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Why-Choose-Soul-of-the-Seasons.png" alt="Why Choose Soul of the Seasons" title="Why Choose Soul of the Seasons">
       </div>
     </div>
   </section>
@@ -302,14 +330,14 @@ get_header('');
     <div class="container-fluid">
 
       <div class="gallery">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Show-home-gallery-1.avif" alt="Gallery Image 1" title="Gallery Image 1" class="img1">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Show-home-gallery-2.avif" alt="Gallery Image 2" title="Gallery Image 1" class="img2">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Show-home-gallery-3.avif" alt="Gallery Image 3" title="Gallery Image 1" class="img3">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Show-home-gallery-1.png" alt="Gallery Image 1" title="Gallery Image 1" class="img1">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Show-home-gallery-2.png" alt="Gallery Image 2" title="Gallery Image 1" class="img2">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Show-home-gallery-3.png" alt="Gallery Image 3" title="Gallery Image 1" class="img3">
       </div>
       <div class="gallery-1">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Show-home-gallery-4.avif" alt="Gallery Image 1"  title="Gallery Image 1" class="img1">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Show-home-gallery-5.avif" alt="Gallery Image 2" title="Gallery Image 1" class="img2">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Show-home-gallery-6.avif" alt="Gallery Image 3" title="Gallery Image 1" class="img3">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Show-home-gallery-4.png" alt="Gallery Image 1"  title="Gallery Image 1" class="img1">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Show-home-gallery-5.png" alt="Gallery Image 2" title="Gallery Image 1" class="img2">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Show-home-gallery-6.png" alt="Gallery Image 3" title="Gallery Image 1" class="img3">
       </div>
 
     </div>
@@ -324,13 +352,13 @@ get_header('');
           <div class="location-slider-wrapper">
             <div class="location-tab">
               <p data-location=".Schools" class="active">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/school-icon.webp" alt="school" title="school"><br>Schools
+                <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/school-icon.png" alt="school" title="school"><br>Schools
               </p>
               <p data-location=".Hospitals" class="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Hospital.webp" alt="Hospital" title="Hospital"><br>Hospitals
+                <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Hospital.png" alt="Hospital" title="Hospital"><br>Hospitals
               </p>
               <p data-location=".Tech_parks" class="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Teach.webp" alt="Teach" title="Teach"><br>Tech parks
+                <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Teach.png" alt="Teach" title="Teach"><br>Tech parks
               </p>
             </div>
             <div class="location-slider">
@@ -447,9 +475,9 @@ get_header('');
         </div>
         <div class=" location-sub-2 col-lg-6 ">
           <div class="location-seo-img-wrapper">
-            <img class="Schools active location-seo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/School-location.avif" alt="Schools" title="Schools">
-            <img class="Hospitals location-seo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/Hospital-location.avif" alt="Hospitals" title="Hospitals">
-            <img class="Tech_parks location-seo-img" src="<?php echo get_template_directory_uri(); ?>/assets/image/tech-park.avif" alt="Tech_parks" title="Tech_parks">
+            <img class="Schools active location-seo-img" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/School-location.png" alt="Schools" title="Schools">
+            <img class="Hospitals location-seo-img" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Hospital-location.png" alt="Hospitals" title="Hospitals">
+            <img class="Tech_parks location-seo-img" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/tech-park.png" alt="Tech_parks" title="Tech_parks">
           </div>
         </div>
       </div>
@@ -461,7 +489,7 @@ get_header('');
     <h2>Amenities</h2>
     <div class="feature-main row">
       <div class="image-feature col-lg-6">
-        <img src="<?php echo get_template_directory_uri(); ?>/assets/image/Amenities.avif" alt="Amenities" title="Amenities">
+        <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Amenities.png" alt="Amenities" title="Amenities">
       </div>
       <div class="luxury-features col-lg-6">
         <h3>Luxury Features For The Luxury Life!</h3>
@@ -470,85 +498,85 @@ get_header('');
         <div class="features-grid">
   <div class="div-1-featuer">
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Yoga-Lawn.webp" alt="Yoga Lawn" title="Yoga Lawn" class="yoga-lawn">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Yoga-Lawn.png" alt="Yoga Lawn" title="Yoga Lawn" class="yoga-lawn">
       <span>Yoga Lawn</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Garden.webp" alt="Garden" title="Garden" class="garden">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Garden.png" alt="Garden" title="Garden" class="garden">
       <span>Garden</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Walking-Trail.webp" alt="Walking Trail" title="Walking Trail" class="walking-trail">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Walking-Trail.png" alt="Walking Trail" title="Walking Trail" class="walking-trail">
       <span>Walking Trail</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Amphitheatre.webp" alt="Amphitheatre" title="Amphitheatre" class="amphitheatre">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Amphitheatre.png" alt="Amphitheatre" title="Amphitheatre" class="amphitheatre">
       <span>Amphitheatre</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Skating-Rink.webp" alt="Skating Rink" title="Skating Rink" class="skating-rink">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Skating-Rink.png" alt="Skating Rink" title="Skating Rink" class="skating-rink">
       <span>Skating Rink</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Kids-Play-Area.webp" alt="Kids' Play Area" title="Kids' Play Area" class="kids-play-area">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Kids-Play-Area.png" alt="Kids' Play Area" title="Kids' Play Area" class="kids-play-area">
       <span>Kids' Play Area</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Skating-Party-Deck.webp" alt="Skating Party Deck" title="Skating Party Deck" class="skating-party-deck">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Skating-Party-Deck.png" alt="Skating Party Deck" title="Skating Party Deck" class="skating-party-deck">
       <span>Skating Party Deck</span>
     </div>
   </div>
 
   <div class="div-2-featuer">
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Picket-ball-Court.webp" alt="Picket Ball Court" title="Picket Ball Court" class="picket-ball-court">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Picket-ball-Court.png" alt="Picket Ball Court" title="Picket Ball Court" class="picket-ball-court">
       <span>Picket Ball Court</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Urban-Farming.webp" alt="Urban Farming" title="Urban Farming" class="urban-farming">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Urban-Farming.png" alt="Urban Farming" title="Urban Farming" class="urban-farming">
       <span>Urban Farming</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Event-Area.webp" alt="Event Area" title="Event Area" class="event-area">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Event-Area.png" alt="Event Area" title="Event Area" class="event-area">
       <span>Event Area</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Outdoor-Gym.webp" alt="Outdoor Gym" title="Outdoor Gym" class="outdoor-gym">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Outdoor-Gym.png" alt="Outdoor Gym" title="Outdoor Gym" class="outdoor-gym">
       <span>Outdoor Gym</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Senior-Citizen-Pavilion.webp" alt="Senior Citizen Pavilion" title="Senior Citizen Pavilion" class="senior-citizen-pavilion">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Senior-Citizen-Pavilion.png" alt="Senior Citizen Pavilion" title="Senior Citizen Pavilion" class="senior-citizen-pavilion">
       <span>Senior Citizen Pavilion</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Fitness-Court.webp" alt="Fitness Court" title="Fitness Court" class="fitness-court">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Fitness-Court.png" alt="Fitness Court" title="Fitness Court" class="fitness-court">
       <span>Fitness Court</span>
     </div>
   </div>
 
   <div class="div-3-features">
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Swimming-Pool.webp" alt="Swimming Pool" title="Swimming Pool" class="swimming-pool">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Swimming-Pool.png" alt="Swimming Pool" title="Swimming Pool" class="swimming-pool">
       <span>Swimming Pool</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Pet-Park.webp" alt="Pet Park" title="Pet Park" class="pet-park">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Pet-Park.png" alt="Pet Park" title="Pet Park" class="pet-park">
       <span>Pet Park</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Stage.webp" alt="Stage" title="Stage" class="stage">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Stage.png" alt="Stage" title="Stage" class="stage">
       <span>Stage</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Meditation-Lawn.webp" alt="Meditation Lawn" title="Meditation Lawn" class="meditation-lawn">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Meditation-Lawn.png" alt="Meditation Lawn" title="Meditation Lawn" class="meditation-lawn">
       <span>Meditation Lawn</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Reflexology-Path.webp" alt="Reflexology Path" title="Reflexology Path" class="reflexology-path">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Reflexology-Path.png" alt="Reflexology Path" title="Reflexology Path" class="reflexology-path">
       <span>Reflexology Path</span>
     </div>
     <div class="feature">
-      <img src="<?php echo get_template_directory_uri(); ?>/assets/image/icon/Indoor-Games.webp" alt="Indoor Games" title="Indoor Games" class="indoor-games">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/icon/Indoor-Games.png" alt="Indoor Games" title="Indoor Games" class="indoor-games">
       <span>Indoor Games</span>
     </div>
   </div>
@@ -559,94 +587,97 @@ get_header('');
   </section>
   <!-- Amenities section end -->
    <!-- New Conent section start -->
-<section class="conent-section_new" >
-    <div class="container-fluid">
-      <div class="conent-div_new">
-        <h3>Prime Location with Seamless Connectivity Strategically Located in Mullur, Near Varthur, Gunjur, Kodathi, Sarjapur Road, Bangalore</h3>
-        <p>Nestled in the thriving neighborhood of Mullur, near Varthur, Gunjur, Kodathi, and Sarjapur Road, Soul of the Seasons offers an address that ensures seamless connectivity and access to essential conveniences. The strategic location makes it an ideal choice for professionals, families, and investors looking for luxury apartments in Sarjapur Road.</p>
-        <h4>Excellent Connectivity</h4>
-        <p>Sarjapur Road is one of Bangalores fastest-developing corridors, ensuring easy access to major city hubs:</p>
-        <ul>
-          <li>Sarjapur Main Road</li>
-          <li>Hosur Road</li>
-          <li>Sarjapur-Attibele Road</li>
-          <li>Varthur Road</li>
-          <li>NH 44</li>
-          <li>Outer Ring Road (ORR)</li>
-          <li>SH 35</li>
-        </ul>
-        <h4>Proximity to Key Destinations</h4>
-        <ul>
-          <li><b>IT Hubs:</b> Close to major tech parks such as ITPL, RMZ Ecoworld, Global Technology Park, and Pritech Park SEZ</li>
-          <li><b>Shopping Entertainment:</b> Easy access to malls like Central Mall, Virginia Mall, and Market Square Mall</li>
-          <li><b>Top Schools Colleges:</b> National Public School, Ravi Shankar Vidya Mandir, Chrysalis High School, and CMR Gandhi Public School</li>
-          <li><b>Healthcare:</b> Close to reputed hospitals like Sakra Premium Hospital and Motherhood Hospital</li>
-          <li><b>Upcoming Metro Connectivity:</b> Nearby metro stations at Muthanallur Cross and Kodathi Gate (Red Line)</li>
-          <li><b>Railway Airport Access:</b> Convenient access to Carmelram Railway Station (12.4 km), Bellandur Railway Station (16.7 km), and Kempegowda International Airport (52 km)</li>
-        </ul>
-        <h2>The Masterplan: Space, Air, and Tranquility</h2>
-        <ul>
-          <li>Sprawling across 9.6 acres of lush greenery with only 2 acres developed, ensuring ample open space.</li>
-          <li>80% open areas designed for a nature-infused lifestyle.</li>
-          <li>Breathtaking lake views for an uninterrupted connection with nature.</li>
-          <li>Sustainable architecture integrating the five elements for well-being.</li>
-        </ul>
-        <h2>Luxury Apartments in Sarjapur Road</h2>
-        <p>Soul of the Seasons offers exquisitely designed 2 BHK and 3 BHK luxury apartments that blend aesthetics with functionality. These homes provide premium living spaces with top-notch amenities, ensuring a sophisticated lifestyle in one of Bangalores most sought-after locations.</p>
-        <h3>Why Choose Soul of the Seasons?</h3>
-        <ul>
-          <li><b>Holistic Living:</b> Inspired by nature and ancient wisdom, ensuring a serene and balanced lifestyle.</li>
-          <li><b>Privacy Connectivity:</b> A perfect blend of exclusivity, comfort, and seamless city access.</li>
-          <li><b>Modern Amenities: </b>Premium clubhouses, landscaped gardens, and recreational facilities.</li>
-          <li><b>Smart Home Features:</b> Integrated security and home automation technology.</li>
-          <li><b>Investment Potential:</b> High appreciation value with increasing rental demand.</li>
-        </ul>
-        <h2>Why Invest in Sarjapur Road?</h2>
-        <p>Sarjapur Road is witnessing rapid real estate growth, making it one of the most desirable locations for homebuyers and investors.</p>
-        <h3>Investment Benefits:</h3>
-        <ul>
-          <li><b>High Rental Yields:</b> Proximity to IT hubs ensures steady rental demand.</li>
-          <li><b>Property Appreciation: </b>Real estate prices have surged by 32.2% in the last three years.</li>
-          <li><b>Infrastructure Expansion:</b> Upcoming metro, Peripheral Ring Road, and improved road networks will further boost value.</li>
-          <li><b>Thriving Job Market:</b> Close to Electronic City, Whitefield, and ORR, which house top multinational companies.</li>
-        </ul>
-        <h2>RERA-Approved Investment Transparency Security</h2>
-        <p>Soul of the Seasons is applied for RERA approval, ensuring legal compliance, quality assurance, and buyer protection. Investing in a RERA-approved property offers several advantages:</p>
-        <ul>
-          <li><b>Security: </b>70% of the buyers funds are secured in an escrow account, ensuring financial transparency.</li>
-          <li><b>Accountability:</b> Developers must adhere to approved plans and deliver within committed timelines.</li>
-          <li><b>
-              Quality Assurance:
-            </b>Structural defects are covered by the builder for five years.</li>
-          <li><b>Fair Pricing: </b>Properties are sold based on the actual carpet area, eliminating misleading super-built-up charges.</li>
-        </ul>
-        <h2>Varthur Hobli A Prime Residential Destination</h2>
-        <p>Varthur Hobli, a collection of villages in Bangalores eastern periphery, is part of Whitefield Township and enjoys proximity to major IT parks. Its advantageous location near Sarjapur Road makes it a sought-after real estate destination.</p>
-        <h4>Key Features:</h4>
-        <ul>
-          <li>Proximity to ITPL and major tech firms, including Wipro Technologies</li>
-          <li>Excellent connectivity to Outer Ring Road and Whitefield</li>
-          <li>Growing residential demand due to IT sector expansion</li>
-          <li>Affordable property prices compared to other IT hubs</li>
-        </ul>
-        <h2>Kodathi A Thriving Neighborhood</h2>
-        <p>Kodathi, an upscale residential area near Sarjapur Road, is emerging as a top investment choice. With continuous infrastructure improvements, including better roads, flyovers, and metro connectivity, the area offers an enhanced living experience.</p>
-        <h4>Why Choose Sarjapur Road ?</h4>
-        <ul>
-          <li>Close to major IT corridors, including Wipro Corporate Office, Accenture, and Cisco</li>
-          <li>Easy access to Whitefield, Marathahalli, and Koramangala</li>
-          <li>Proximity to top schools like TISB and Indus International School</li>
-          <li>Well-connected to leading healthcare facilities such as Motherhood Hospital and Sakra Premium Hospital</li>
-          <li>Shopping and entertainment hubs like Inorbit Mall and Total Mall are nearby</li>
-        </ul>
-        <p>With its blend of connectivity, infrastructure, and real estate appreciation potential, Soul of the Seasons in Kodathi is a great choice for homebuyers and investors alike.</p>
-        <h2>Secure Your Home at Soul of the Seasons</h2>
-        <p>With its unique blend of luxury, sustainability, and connectivity, Soul of the Seasons is the perfect home for those seeking a harmonious lifestyle. Whether you're looking to invest or find your dream home, this is an opportunity to experience elevated living in luxury apartments in Sarjapur Road.</p>
-        <h3>Enquire Today Be a Part of This Exclusive Community!</h3>
-      </div>
-    </div>
-  
-  </section>
+    <section class="conent-section_new">
+        <div class="container-fluid">
+<div class="conent-div_new">
+    <h2>Discover the Meaning Behind Soul of the Seasons</h2>
+<p>Soul of the Seasons is more than just a name it represents the essence of harmonious living, inspired by the rhythm of nature. Just as the four seasons bring change, renewal, and balance, this thoughtfully designed community embodies the perfect blend of tranquility, modern comforts, and sustainable living. The architecture and landscape integrate the five essential elements Ether, Air, Fire, Water, and Earth enhancing physical, mental, and emotional well-being for a holistic lifestyle.</p>
+<h3>Prime Location with Seamless Connectivity Strategically Located in Mullur, Near Varthur, Gunjur, Kodathi, Sarjapur Road, Bangalore</h3>
+<p>Nestled in the thriving neighborhood of Mullur, near Varthur, Gunjur, Kodathi, and Sarjapur Road, Soul of the Seasons offers an address that ensures seamless connectivity and access to essential conveniences. The strategic location makes it an ideal choice for professionals, families, and investors looking for luxury apartments in Sarjapur Road.</p>
+<h4>Excellent Connectivity</h4>
+<p>Sarjapur Road is one of Bangalores fastest-developing corridors, ensuring easy access to major city hubs:</p>
+<ul>
+  <li>Sarjapur Main Road</li>
+  <li>Hosur Road</li>
+  <li>Sarjapur-Attibele Road</li>
+  <li>Varthur Road</li>
+  <li>NH 44</li>
+  <li>Outer Ring Road (ORR)</li>
+  <li>SH 35</li>
+</ul>
+<h4>Proximity to Key Destinations</h4>
+<ul>
+  <li><b>IT Hubs:</b> Close to major tech parks such as ITPL, RMZ Ecoworld, Global Technology Park, and Pritech Park SEZ</li>
+  <li><b>Shopping Entertainment:</b> Easy access to malls like Central Mall, Virginia Mall, and Market Square Mall</li>
+  <li><b>Top Schools Colleges:</b> National Public School, Ravi Shankar Vidya Mandir, Chrysalis High School, and CMR Gandhi Public School</li>
+  <li><b>Healthcare:</b> Close to reputed hospitals like Sakra Premium Hospital and Motherhood Hospital</li>
+  <li><b>Upcoming Metro Connectivity:</b> Nearby metro stations at Muthanallur Cross and Kodathi Gate (Red Line)</li>
+  <li><b>Railway Airport Access:</b> Convenient access to Carmelram Railway Station (12.4 km), Bellandur Railway Station (16.7 km), and Kempegowda International Airport (52 km)</li>
+</ul>
+<h2>The Masterplan: Space, Air, and Tranquility</h2>
+<ul>
+  <li>Sprawling across 9.6 acres of lush greenery with only 2 acres developed, ensuring ample open space.</li>
+  <li>80% open areas designed for a nature-infused lifestyle.</li>
+  <li>Breathtaking lake views for an uninterrupted connection with nature.</li>
+  <li>Sustainable architecture integrating the five elements for well-being.</li>
+</ul>
+<h2>Luxury Apartments in Sarjapur Road</h2>
+<p>Soul of the Seasons offers exquisitely designed 2 BHK and 3 BHK luxury apartments that blend aesthetics with functionality. These homes provide premium living spaces with top-notch amenities, ensuring a sophisticated lifestyle in one of Bangalores most sought-after locations.</p>
+<h3>Why Choose Soul of the Seasons?</h3>
+<ul>
+  <li><b>Holistic Living:</b> Inspired by nature and ancient wisdom, ensuring a serene and balanced lifestyle.</li>
+  <li><b>Privacy Connectivity:</b> A perfect blend of exclusivity, comfort, and seamless city access.</li>
+  <li><b>Modern Amenities: </b>Premium clubhouses, landscaped gardens, and recreational facilities.</li>
+  <li><b>Smart Home Features:</b> Integrated security and home automation technology.</li>
+  <li><b>Investment Potential:</b> High appreciation value with increasing rental demand.</li>
+</ul>
+<p><br /><br /></p>
+<h2>Why Invest in Sarjapur Road?</h2>
+<p>Sarjapur Road is witnessing rapid real estate growth, making it one of the most desirable locations for homebuyers and investors.</p>
+<h3>Investment Benefits:</h3>
+<ul>
+  <li><b>High Rental Yields:</b> Proximity to IT hubs ensures steady rental demand.</li>
+  <li><b>Property Appreciation: </b>Real estate prices have surged by 32.2% in the last three years.</li>
+  <li><b>Infrastructure Expansion:</b> Upcoming metro, Peripheral Ring Road, and improved road networks will further boost value.</li>
+  <li><b>Thriving Job Market:</b> Close to Electronic City, Whitefield, and ORR, which house top multinational companies.</li>
+</ul>
+<h2>RERA-Approved Investment Transparency Security</h2>
+<p>Soul of the Seasons is applied for RERA approval, ensuring legal compliance, quality assurance, and buyer protection. Investing in a RERA-approved property offers several advantages:</p>
+<ul>
+  <li><b>Security: </b>70% of the buyers funds are secured in an escrow account, ensuring financial transparency.</li>
+  <li><b>Accountability:</b> Developers must adhere to approved plans and deliver within committed timelines.</li>
+  <li><b>
+      Quality Assurance:
+    </b>Structural defects are covered by the builder for five years.</li>
+  <li><b>Fair Pricing: </b>Properties are sold based on the actual carpet area, eliminating misleading super-built-up charges.</li>
+</ul>
+<h2>Varthur Hobli A Prime Residential Destination</h2>
+<p>Varthur Hobli, a collection of villages in Bangalores eastern periphery, is part of Whitefield Township and enjoys proximity to major IT parks. Its advantageous location near Sarjapur Road makes it a sought-after real estate destination.</p>
+<h4>Key Features:</h4>
+<ul>
+  <li>Proximity to ITPL and major tech firms, including Wipro Technologies</li>
+  <li>Excellent connectivity to Outer Ring Road and Whitefield</li>
+  <li>Growing residential demand due to IT sector expansion</li>
+  <li>Affordable property prices compared to other IT hubs</li>
+</ul>
+<h2>Kodathi A Thriving Neighborhood</h2>
+<p>Kodathi, an upscale residential area near Sarjapur Road, is emerging as a top investment choice. With continuous infrastructure improvements, including better roads, flyovers, and metro connectivity, the area offers an enhanced living experience.</p>
+<h4>Why Choose Kodathi?</h4>
+<ul>
+  <li>Close to major IT corridors, including Wipro Corporate Office, Accenture, and Cisco</li>
+  <li>Easy access to Whitefield, Marathahalli, and Koramangala</li>
+  <li>Proximity to top schools like TISB and Indus International School</li>
+  <li>Well-connected to leading healthcare facilities such as Motherhood Hospital and Sakra Premium Hospital</li>
+  <li>Shopping and entertainment hubs like Inorbit Mall and Total Mall are nearby</li>
+</ul>
+<p>With its blend of connectivity, infrastructure, and real estate appreciation potential, Soul of the Seasons in Kodathi is a great choice for homebuyers and investors alike.</p>
+<h2>Secure Your Home at Soul of the Seasons</h2>
+<p>With its unique blend of luxury, sustainability, and connectivity, Soul of the Seasons is the perfect home for those seeking a harmonious lifestyle. Whether you're looking to invest or find your dream home, this is an opportunity to experience elevated living in luxury apartments in Sarjapur Road.</p>
+<h3>Enquire Today Be a Part of This Exclusive Community!</h3>
+</div>
+        </div>
+
+    </section>
   <!-- New Conent section end -->
   <!-- faq -->
   <section class="faq-section-main">
@@ -687,14 +718,14 @@ get_header('');
                 </div>
               </div>
             </div>
-            <!-- <div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+            <div class="faq-singular" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
               <h3 class="faq-question" itemprop="name">What is the area of 3BHK?</h3>
               <div class="faq-answer" itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
                 <div itemprop="text">
                   <p>The area of 3BHK apartments in Soul of the Seasons ranges from 1500 to 1800 Sqft.</p>
                 </div>
               </div>
-            </div> -->
+            </div>
           </div>
         </div>
       </div>
@@ -711,7 +742,7 @@ get_header('');
         </div>
         <div class="blog-container">
           <div class="blog-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/blog-image-1.avif" alt="Blog Image" title="Blog Image">
+            <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/blog-image-1.png" alt="Blog Image" title="Blog Image">
             <div class="blog-content">
               <p class="blog-date">Aug 23, 2021</p>
               <p class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer</p>
@@ -719,7 +750,7 @@ get_header('');
             </div>
           </div>
           <div class="blog-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/blog-image-1.avif" alt="Blog Image" title="Blog Image">
+            <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/blog-image-1.png" alt="Blog Image" title="Blog Image">
             <div class="blog-content">
               <p class="blog-date">Aug 23, 2021</p>
               <p class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer</p>
@@ -727,7 +758,7 @@ get_header('');
             </div>
           </div>
           <div class="blog-card">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/image/blog-image-3.avif" alt="Blog Image" title="Blog Image">
+            <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/blog-image-3.png" alt="Blog Image" title="Blog Image">
             <div class="blog-content">
               <p class="blog-date">Aug 23, 2021</p>
               <p class="blog-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer</p>
@@ -755,4 +786,93 @@ get_header('');
   <!--  </div>-->
 
   <!--</section>-->
-  <?php include 'footer.php'; ?>
+  <footer class="footer">
+    <div class="footer-container container-fluid">
+      <div class="footer-left">
+        <h2>Soul of the Seasons</h2>
+        <p>A leading real estate developer in Bangalore, offers luxury homes in prime locations with world-class amenities and seamless connectivity.</p>
+      </div>
+      <div class="footer-right">
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Blogs</a></li>
+        </ul>
+        <ul class="footer-links">
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Press Releases</a></li>
+          <li><a href="#">Contact Us</a></li>
+          
+        </ul>
+
+      </div>
+
+    </div>
+
+    <!-- <div class="footer-logos">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/Credai.png" alt="CREDAI" title="CREDAI" class="CREDAI">
+      <img src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/image/ISO.png" alt="ISO"  title="ISO" class="ISO">
+
+    </div> -->
+    <br>
+  </footer>
+  <div class="footer-bottom row">
+    <p class="col-lg-6">Copyright ©2025 Soul of the Seasons . All Rights Reserved</p>
+    <div class="footer-bottom-links col-lg-6 ">
+      <a href="#">Terms of Service</a>
+      <a href="#">Privacy Policy</a>
+    </div>
+  </div>
+  <!-- <div class="pop-up-btn new-change" style="cursor: pointer;">
+    <a href="#" class="open-popup-link menu-link" data-bs-toggle="modal" data-bs-target="#enquiry-form">Enquire Now</a>
+</div> -->
+<div class="modal fade" id="enquiry-form" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+    <div class="modal-dialog Bookingform">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel2">Enquire Now</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                
+<div class="wpcf7 no-js" id="wpcf7-f19-o1" lang="en-US" dir="ltr" data-wpcf7-id="19">
+<div class="screen-reader-response"><p role="status" aria-live="polite" aria-atomic="true"></p> <ul></ul></div>
+<form action="/#wpcf7-f19-o1" method="post" class="wpcf7-form init" aria-label="Contact form" novalidate="novalidate" data-status="init">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="19" />
+<input type="hidden" name="_wpcf7_version" value="6.0.5" />
+<input type="hidden" name="_wpcf7_locale" value="en_US" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f19-o1" />
+<input type="hidden" name="_wpcf7_container_post" value="0" />
+<input type="hidden" name="_wpcf7_posted_data_hash" value="" />
+</div>
+<div class="form-group Form-change">
+	<p><span class="wpcf7-form-control-wrap" data-name="Name-1"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-text form-control" aria-invalid="false" placeholder="What&#039;s your name?*" value="" type="text" name="Name-1" /></span>
+	</p>
+</div>
+<div class="form-group Form-change">
+	<p><span class="wpcf7-form-control-wrap" data-name="Phone-1"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-tel wpcf7-text wpcf7-validates-as-tel form-control" aria-invalid="false" placeholder="What&#039;s your phone number?*" value="" type="tel" name="Phone-1" /></span>
+	</p>
+</div>
+<div class=" form-group Form-change">
+	<p><span class="wpcf7-form-control-wrap" data-name="Email-1"><input size="40" maxlength="400" class="wpcf7-form-control wpcf7-email wpcf7-text wpcf7-validates-as-email form-control" aria-invalid="false" placeholder="What&#039;s your email?" value="" type="email" name="Email-1" /></span>
+	</p>
+</div>
+<p><input class="wpcf7-form-control wpcf7-submit has-spinner btn Form-change-sub" type="submit" value="Submit" />
+</p><div class="wpcf7-response-output" aria-hidden="true"></div>
+</form>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- Download Brochure section end -->
+  <!-- <script type="text/javascript" src="js/jquery-3.6.4.slim.min.js"></script> -->
+  <script type="text/javascript" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/js/owl.carousel.min.js"></script>
+  <script type="text/javascript" src="https://www.souloftheseasons.in/wp-content/themes/twentytwentyfive/assets/js/myscript.js"></script>
+</body>
+<script>'undefined'=== typeof _trfq || (window._trfq = []);'undefined'=== typeof _trfd && (window._trfd=[]),_trfd.push({'tccl.baseHost':'secureserver.net'},{'ap':'cpsh-oh'},{'server':'sg2plzcpnl509003'},{'dcenter':'sg2'},{'cp_id':'10249077'},{'cp_cl':'8'}) // Monitoring performance to make your website faster. If you want to opt-out, please contact web hosting support.</script><script src='https://img1.wsimg.com/traffic-assets/js/tccl.min.js'></script></html>
